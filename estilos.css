@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: linear-gradient(to bottom, #808080, #ffffff); margin: 0;
+    border-bottom: 1px solid rgb(162, 162, 162);
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 14px;
+    word-spacing: 45px;
+}
+
+
+nav ul li{
+    list-style: none ;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.barra a:hover{
+    color: rgb(212, 0, 0);
+    text-decoration: underline;
+}
+
+.navbar{
+    background-color: rgb(137, 137, 137);
+    justify-content: end;
+}
+
+.navbar-brand{
+    color: rgb(255, 187, 0) !important;
+}
+
+.navbar-brand img{
+    height: 70px;
+}
+
+.nav-link{
+    color: black !important;
+    text-shadow: 0 0 5px rgb(46, 46, 46);
+}
+
+.nav-link:hover{
+    color: rgb(242, 194, 0) !important;
+}
+
+.jumbotron{
+    height: 340px;
+    background-image: url(images/banner\ fondo.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-color: #212121 !important;
+}
+
+h4{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+}
+
+h5{
+    text-align: left;
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb(108, 108, 108);
+    padding-top: 50px;
+    padding-right: 150px;
+}
+
+h6{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: rgb(117, 117, 117);
+}
+
+.nleft{
+    padding-left: 200px;
+}
+
+.right{
+    text-align: left;
+}
+
+.articulo{
+    text-align: center;
+    font-size: 14px;
+}
+
+.card__btn{
+    color: #ffffff;
+    background-color: #b00909;
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.galeria{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    padding: 30px;
+    grid-template-areas:
+    "img1 img2 img3 img3"
+    "img1 img4 img5 img6"
+    "img7 img4 img8 img8";
+    grid-gap: 20px;
+}
+.item{
+    border: 2px solid #a60909;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+}
+.item:hover{
+    filter: brightness(50%);
+    transform: scale(1.03);
+}
+
+.item1{
+    grid-area: img1;
+    background-image: url(images/Cthulhu-1.jpg);
+    background-position: right;
+}
+.item2{
+    grid-area: img2;
+    background-image: url(images/Azathoth-1.jpg);
+}
+.item3{
+    grid-area: img3;
+    background-image: url(images/Nyarlathotep-1.jpg);
+}
+.item4{
+    grid-area: img4;
+    background-image: url(images/Yog\ Sothoth.png);
+}
+.item5{
+    grid-area: img5;
+    background-image: url(images/Shub\ Niggurath.png);
+}
+.item6{
+    grid-area: img6;
+    background-image: url(images/Shoggoth.png);
+}
+.item7{
+    grid-area: img7;
+    background-image: url(images/Cthulhu.png);
+}
+.item8{
+    grid-area: img8;
+    background-image: url(images/arkham.jpg);
+}
+
+
+
+footer{
+    background-color: #171717;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 45px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+footer .redes a{
+    text-decoration: none;
+}
+
+footer .redes i{
+    color: orange;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subir{
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    color: #ffffff;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 3px 7px 3px rgba(72, 72, 72, 0.537);
+}
