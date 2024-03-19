@@ -69,6 +69,24 @@ h1{
     text-shadow: 2px 3px 5px #5a5a5a
 }
 
+h1.titulo-animado {
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  animation-name: slidein;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 10px;
+  }
+}
+
 h4{
     text-align: center;
     font-weight: bold;
@@ -95,11 +113,11 @@ h6{
 }
 
 .nleft{
-    padding-left: 200px;
+text-align: center;
 }
 
 .right{
-    text-align: left;
+    text-align: center;
 }
 
 .articulo{
