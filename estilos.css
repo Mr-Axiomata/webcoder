@@ -85,6 +85,7 @@ a {
 h1 {
   color: #a60909;
   text-shadow: 2px 3px 5px #5a5a5a;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 h1 {
@@ -217,6 +218,13 @@ h6 {
   grid-area: img8;
   background-image: url(images/arkham.jpg);
 }
+
+
+#card-home:hover {
+  filter: drop-shadow(0 0 12px rgba(42, 42, 42, 0.2));
+  transform: scale(1.06);
+}
+
 
 footer {
   background-color: #171717;
