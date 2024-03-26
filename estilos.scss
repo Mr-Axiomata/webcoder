@@ -66,8 +66,8 @@ a{
 
 .jumbotron{
     height: 340px;
-    background-image: url(images/banner\ fondo.png);
-    background-position: cover;
+    background-image: url(images/Lovecraft-fondo.webp);
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #212121 !important;
 }
@@ -75,7 +75,7 @@ a{
 h1{
     color: #a60909;
     text-shadow: 2px 3px 5px #5a5a5a 
-    font-family: $font2;
+    font-family $font2;
 }
 
 h4{
